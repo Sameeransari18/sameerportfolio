@@ -10,7 +10,7 @@ export default function Skill() {
       >
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 font-bold text-gray-900">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 font-extrabold text-gray-900">
               SKILLS
             </h1>
           </div>
@@ -21,8 +21,10 @@ export default function Skill() {
                 alt="HTML"
                 width={64}
                 height={64}
-                className="m-auto "
+                className="m-auto transition ease-in-out delay-150 grayscale hover:-translate-y-1 hover:scale-110 hover:grayscale-0 duration-300"
+                loading="lazy"
               />
+
             </div>
             <div className="p-4 sm:w-1/4 w-1/2">
               <Image
@@ -30,7 +32,7 @@ export default function Skill() {
                 alt="css"
                 width={64}
                 height={64}
-                className="m-auto"
+                className="m-auto transition ease-in-out delay-150 grayscale hover:-translate-y-1 hover:scale-110 hover:grayscale-0 duration-300"
               />
             </div>
 
@@ -40,7 +42,7 @@ export default function Skill() {
                 alt="tailwindcss"
                 width={64}
                 height={64}
-                className="m-auto"
+                className="m-auto transition ease-in-out delay-150 grayscale hover:-translate-y-1 hover:scale-110 hover:grayscale-0 duration-300"
               />
             </div>
             <div className="p-4 sm:w-1/4 w-1/2">
@@ -49,7 +51,7 @@ export default function Skill() {
                 alt="js"
                 width={64}
                 height={64}
-                className="m-auto"
+                className="m-auto transition ease-in-out delay-150 grayscale hover:-translate-y-1 hover:scale-110 hover:grayscale-0 duration-300"
               />
             </div>
             <div className="p-4 sm:w-1/4 w-1/2">
@@ -58,7 +60,7 @@ export default function Skill() {
                 alt="git"
                 width={64}
                 height={64}
-                className="m-auto"
+                className="m-auto transition ease-in-out delay-150 grayscale hover:-translate-y-1 hover:scale-110 hover:grayscale-0 duration-300"
               />
             </div>
             <div className="p-4 sm:w-1/4 w-1/2">
@@ -67,7 +69,7 @@ export default function Skill() {
                 alt="Angular"
                 width={64}
                 height={64}
-                className="m-auto"
+                className="m-auto transition ease-in-out delay-150 grayscale hover:-translate-y-1 hover:scale-110 hover:grayscale-0 duration-300"
               />
             </div>
             <div className="p-4 sm:w-1/4 w-1/2">
@@ -76,7 +78,7 @@ export default function Skill() {
                 alt="react"
                 width={64}
                 height={64}
-                className="m-auto"
+                className="m-auto transition ease-in-out delay-150 grayscale hover:-translate-y-1 hover:scale-110 hover:grayscale-0 duration-300"
               />
             </div>
             <div className="p-4 sm:w-1/4 w-1/2">
@@ -85,7 +87,7 @@ export default function Skill() {
                 alt="next-js"
                 width={64}
                 height={64}
-                className="m-auto"
+                className="m-auto transition ease-in-out delay-150 grayscale hover:-translate-y-1 hover:scale-110 hover:grayscale-0 duration-300"
               />
             </div>
           </div>

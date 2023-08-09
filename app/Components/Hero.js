@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function Hero() {
@@ -8,11 +9,13 @@ export default function Hero() {
     >
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center absolute inset-0">
         <div className=" lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-          <img
-            className=" bg-cover object-cover object-center rounded"
-            alt="hero"
-            src="https://dummyimage.com/720x1000"
-          />
+        <Image
+              src={"/Images/html.svg"}
+              alt="HTML"
+              width={450}
+              height={450}
+              className="m-auto"
+            />
         </div>
         <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function Navbar() {
@@ -6,12 +7,13 @@ export default function Navbar() {
       <header className="text-gray-600 fixed bg-white shadow w-screen body-font z-10">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-            <img
-              src="http://192.168.56.1:9001/static/uploads/blogsCardImages/1690545380925-favicon%20(2).ico"
-              alt="Header"
-              className="heroImg h-10 w-10 rounded-full"
+          <Image
+              src={"/Images/html.svg"}
+              alt="HTML"
+              width={10}
+              height={10}
+              className="h-10 w-10"
             />
-
             <span className="ml-3 font-bold text-2xl">Tailblocks</span>
           </a>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center text-lg">
