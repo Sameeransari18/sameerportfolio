@@ -5,6 +5,7 @@ import Footer from "./Components/Footer";
 import About from "./Components/About";
 import Head from "next/head";
 import Skill from "./Components/Skill";
+import Education from "./Components/Education";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero />
       <About />
       <Skill />
+      <Education />
       <Footer />
     </>
   );
