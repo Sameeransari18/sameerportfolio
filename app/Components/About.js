@@ -39,6 +39,38 @@ export default function About() {
           </div>
         </div>
       </section>
+
+      {/* <!-- component --> */}
+      <div class="flex min-h-screen items-center justify-center bg-black font-bold text-white">
+        <div class=" text-center space-y-12">
+          <div class="text-center text-5xl font-bold">
+            Services offered
+            <div class="relative inline-grid grid-cols-1 grid-rows-1 gap-12 overflow-hidden">
+              <span class="animate-word col-span-full row-span-full">
+                Flutter
+              </span>
+              <span class="animate-word-delay-1 col-span-full row-span-full">
+                Django
+              </span>
+              {/* <span class="animate-word-delay-2 col-span-full row-span-full">
+                Website
+              </span>
+              <span class="animate-word-delay-3 col-span-full row-span-full">
+                VueJS
+              </span>
+              <span class="animate-word-delay-4 col-span-full row-span-full">
+                NuxtJS
+              </span> */}
+            </div>
+          </div>
+          <p class=" text-white">
+            Want to hire me for work ping me{" "}
+            <a class="underline" href="mailto:ponnamkarthik3@gmail.com">
+              mail here
+            </a>
+          </p>
+        </div>
+      </div>
     </>
   );
 }

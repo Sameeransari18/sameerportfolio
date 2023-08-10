@@ -31,3 +31,44 @@ body {
     @apply scroll-smooth;
   }
 }
+
+@keyframes word {
+  0% {
+    transform: translateY(100%);
+  }
+  15% {
+    transform: translateY(-10%);
+    animation-timing-function: ease-out;
+  }
+
+  20% {
+    transform: translateY(0);
+  }
+
+  40%,
+  100% {
+    transform: translateY(-110%);
+  }
+}
+
+.animate-word {
+  animation: word 8s infinite 1.5s;
+  /* animation-delay: 1s; */
+}
+.animate-word-delay-1 {
+  animation: word 8s infinite -1.5s;
+  /* animation-delay: -1.4s; */
+}
+.animate-word-delay-2 {
+  animation: word 6s infinite;
+  animation-delay: -4s;
+}
+.animate-word-delay-3 {
+  animation: word 6s infinite;
+  animation-delay: -5.6s;
+}
+.animate-word-delay-4 {
+  animation: word 6s infinite;
+  animation-delay: -7.2s;
+}
+
