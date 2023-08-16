@@ -9,6 +9,7 @@ import About from "./Components/About";
 import Skill from "./Components/Skill";
 import Education from "./Components/Education";
 import ScrollProgress from "./Components/ScrollProgress";
+import Contact from "./Components/Contact";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <About />
       <Skill />
       <Education />
+      <Contact />
       <Footer />
       <ScrollProgress />
 

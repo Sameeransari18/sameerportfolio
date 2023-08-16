@@ -51,24 +51,48 @@ body {
   }
 }
 
-.animate-word {
-  animation: word 8s infinite 1.5s;
-  /* animation-delay: 1s; */
+/* .animate-word {
+  animation: word 6s infinite;
+  animation-delay: 1s;
 }
 .animate-word-delay-1 {
-  animation: word 8s infinite -1.5s;
-  /* animation-delay: -1.4s; */
+  animation: word 6s infinite;
+  animation-delay: -1.4s;
 }
 .animate-word-delay-2 {
   animation: word 6s infinite;
-  animation-delay: -4s;
+  animation-delay: 1.8s;
 }
 .animate-word-delay-3 {
-  animation: word 6s infinite;
-  animation-delay: -5.6s;
+  animation: word 5s infinite;
+  animation-delay: -5.5s;
 }
 .animate-word-delay-4 {
-  animation: word 6s infinite;
+  animation: word 5s infinite;
   animation-delay: -7.2s;
+} */
+
+
+.animate-word,
+.animate-word-delay-1,
+.animate-word-delay-2,
+.animate-word-delay-3,
+.animate-word-delay-4 {
+  animation: word 6s infinite;
 }
 
+.animate-word {
+  animation-delay: 1s;
+}
+.animate-word-delay-1 {
+  animation-delay: -1s;
+}
+.animate-word-delay-2 {
+  animation-delay: -5s;
+}
+.animate-word-delay-3 {
+  animation-delay: -9s;
+}
+.animate-word-delay-4 {
+  animation-delay: -9s;
+}

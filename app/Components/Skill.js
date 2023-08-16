@@ -10,7 +10,7 @@ export default function Skill() {
       >
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 font-extrabold text-gray-900">
+            <h1 className="sm:text-3xl text-2xl font-black  title-font mb-4 text-gray-900">
               SKILLS
             </h1>
           </div>
@@ -88,6 +88,20 @@ export default function Skill() {
                 />
               </div>
             </div>
+
+            {/* <div class="h-32 w-32 relative cursor-pointer mb-5">
+              <div class="absolute inset-0 opacity-25 rounded-lg shadow-2xl"></div>
+
+              <div class="absolute inset-0 transform hover:rotate-180 hover:translate-x-full hover:scale-150 transition duration-300">
+                <div class="h-full w-full  rounded-lg shadow-2xl">
+                  <img
+                    src="/Images/html.svg"
+                    alt="next-js"
+                    className="w-full h-full object-contain rounded-md grayscale hover:grayscale-0 duration-300"
+                  />
+                </div>
+              </div>
+            </div> */}
           </div>
         </div>
       </section>
