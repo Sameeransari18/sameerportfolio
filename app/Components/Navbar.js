@@ -71,12 +71,12 @@ export default function Navbar() {
         <div className="container px-6 py-3 mx-auto">
           <div className="lg:flex lg:items-center">
             <div className="flex items-center justify-between pb-1">
-              <a href="#" className="w-12 top-2 h-12 absolute">
+              <a href="#hero" className="w-12 top-2 h-12 absolute ">
                 <Image
                   src="/Images/html.svg"
                   alt="imgss"
                   layout="fill"
-                  className="rounded-full"
+                  className="rounded-full cursor-pointer"
                 />
               </a>
 
@@ -148,32 +148,6 @@ export default function Navbar() {
                                     placeholder="Search"
                                 />
                             </div> */}
-              </div>
-
-              <div className="flex justify-center mt-6 lg:flex lg:mt-0 lg:-mx-2">
-                <a
-                  href="#"
-                  className="mx-2 text-black transition-colors duration-300 transform dark:text-black hover:text-gray-500 dark:hover:text-gray-500"
-                  aria-label="Reddit"
-                >
-                  {/* <FacebookRounded /> */}
-                </a>
-
-                <a
-                  href="#"
-                  className="mx-2 text-black transition-colors duration-300 transform dark:text-black hover:text-gray-500 dark:hover:text-gray-500"
-                  aria-label="Facebook"
-                >
-                  {/* <LinkedIn /> */}
-                </a>
-
-                <a
-                  href="#"
-                  className="mx-2 text-black transition-colors duration-300 transform dark:text-black hover:text-gray-500 dark:hover:text-gray-500"
-                  aria-label="Github"
-                >
-                  {/* <GitHub /> */}
-                </a>
               </div>
             </div>
           </div>

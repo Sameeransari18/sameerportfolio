@@ -4,17 +4,50 @@ import React from "react";
 export default function Skill() {
   return (
     <>
-      <section
-        id="skills"
-        className="text-gray-600 body-font bg-no-repeat bg-auto h-100%  bg-gradient-to-r from-fuchsia-500 to-violet-500 "
-      >
+      <section id="skills" className="text-gray-600 body-font ">
         <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-col text-center w-full mb-20">
-            <h1 className="sm:text-3xl text-2xl font-black  title-font mb-4 text-gray-900">
+          <div className="flex flex-col text-center w-full mb-10">
+            <h1 className="sm:text-4xl text-3xl font-black tracking-widest uppercase title-font mb-4 text-gray-900">
               SKILLS
             </h1>
           </div>
           <div className="flex flex-wrap -m-4 text-center">
+            <div className="p-4 sm:w-1/4 w-1/2 relative">
+              <div className="w-20 h-20 mx-auto transition-transform ease-in-out delay-150 transform-gpu hover:-translate-y-1 hover:scale-110">
+                <img
+                  src="/Images/netcore.svg"
+                  alt="netcore"
+                  className="w-full h-full object-contain rounded-md grayscale hover:grayscale-0 duration-300"
+                />
+              </div>
+            </div>
+            <div className="p-4 sm:w-1/4 w-1/2 relative">
+              <div className="w-20 h-20 mx-auto transition-transform ease-in-out delay-150 transform-gpu hover:-translate-y-1 hover:scale-110">
+                <img
+                  src="/Images/nodejs.svg"
+                  alt="nodejs"
+                  className="w-full h-full object-contain rounded-md grayscale hover:grayscale-0 duration-300"
+                />
+              </div>
+            </div>
+            <div className="p-4 sm:w-1/4 w-1/2 relative">
+              <div className="w-20 h-20 mx-auto transition-transform ease-in-out delay-150 transform-gpu hover:-translate-y-1 hover:scale-110">
+                <img
+                  src="/Images/boomi.svg"
+                  alt="boomi"
+                  className="w-full h-full object-contain rounded-md grayscale hover:grayscale-0 duration-300"
+                />
+              </div>
+            </div>
+            <div className="p-4 sm:w-1/4 w-1/2 relative">
+              <div className="w-20 h-20 mx-auto transition-transform ease-in-out delay-150 transform-gpu hover:-translate-y-1 hover:scale-110">
+                <img
+                  src="/Images/git-icon.svg"
+                  alt="git-icon"
+                  className="w-full h-full object-contain rounded-md grayscale hover:grayscale-0 duration-300"
+                />
+              </div>
+            </div>
             <div className="p-4 sm:w-1/4 w-1/2 relative">
               <div className="w-20 h-20 mx-auto transition-transform ease-in-out delay-150 transform-gpu hover:-translate-y-1 hover:scale-110">
                 <img
@@ -52,20 +85,12 @@ export default function Skill() {
                 />
               </div>
             </div>
+
             <div className="p-4 sm:w-1/4 w-1/2 relative">
               <div className="w-20 h-20 mx-auto transition-transform ease-in-out delay-150 transform-gpu hover:-translate-y-1 hover:scale-110">
                 <img
-                  src="/Images/git-icon.svg"
-                  alt="git-icon"
-                  className="w-full h-full object-contain rounded-md grayscale hover:grayscale-0 duration-300"
-                />
-              </div>
-            </div>
-            <div className="p-4 sm:w-1/4 w-1/2 relative">
-              <div className="w-20 h-20 mx-auto transition-transform ease-in-out delay-150 transform-gpu hover:-translate-y-1 hover:scale-110">
-                <img
-                  src="/Images/angular.svg"
-                  alt="angular"
+                  src="/Images/npm-square-red-1.svg"
+                  alt="npm-square-red-1"
                   className="w-full h-full object-contain rounded-md grayscale hover:grayscale-0 duration-300"
                 />
               </div>
@@ -88,60 +113,18 @@ export default function Skill() {
                 />
               </div>
             </div>
-
-            {/* <div class="h-32 w-32 relative cursor-pointer mb-5">
-              <div class="absolute inset-0 opacity-25 rounded-lg shadow-2xl"></div>
-
-              <div class="absolute inset-0 transform hover:rotate-180 hover:translate-x-full hover:scale-150 transition duration-300">
-                <div class="h-full w-full  rounded-lg shadow-2xl">
-                  <img
-                    src="/Images/html.svg"
-                    alt="next-js"
-                    className="w-full h-full object-contain rounded-md grayscale hover:grayscale-0 duration-300"
-                  />
-                </div>
-              </div>
-            </div> */}
-          </div>
-        </div>
-      </section>
-
-      {/* <div>
-        <div className="md:container mx-auto flex flex-col md:flex-row">
-          <div className="flex flex-col w-full md:w-1/2">
-            <p className="text-lg mb-10 uppercase tracking-widest text-purple-600 font-black">
-              Skills
-            </p>
-            <div className="flex sm:flex-col md:flex-row">
-              <div className="flex flex-col gap-y-4">
-                <p className="text-3xl mb-3 tracking-widest text-center md:text-left md:text-3xl font-light md:font-bold">
-                  A modern tech stack integration
-                </p>
-                <p className="text-lg text-darkGrayishBlue leading-8 text-justify tracking-normal">
-                  Web development is evolving at a breakneck speed every passing
-                  year. I discover regularly to explore new ways of innovation
-                  to foresee these changes and quickly adapt to the latest
-                  technologies.
-                </p>
+            <div className="p-4 sm:w-1/4 w-1/2 relative">
+              <div className="w-20 h-20 mx-auto transition-transform ease-in-out delay-150 transform-gpu hover:-translate-y-1 hover:scale-110">
+                <img
+                  src="/Images/material-ui.svg"
+                  alt="material-ui"
+                  className="w-full h-full object-contain rounded-md grayscale hover:grayscale-0 duration-300"
+                />
               </div>
             </div>
           </div>
-          <div className="w-full md:w-1/2 p-0 m-0 h-96 relative flex items-center justify-center">
-            {icons.map((icon, index) => (
-              <div className="flex flex-col gap-y-4" key={index}>
-                <img
-                  className="icon scale-25 md:scale-50"
-                  src={icon.iconSrc}
-                  alt={icon.altText}
-                />
-                <p className="text-lg text-darkGrayishBlue leading-8 text-justify tracking-normal">
-                  {icon.description}
-                </p>
-              </div>
-            ))}
-          </div>
         </div>
-      </div> */}
+      </section>
     </>
   );
 }
