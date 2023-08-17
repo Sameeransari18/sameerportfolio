@@ -10,12 +10,10 @@ export default function Footer() {
             href="#hero"
             className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
           >
-            <Image
-              src={"/Images/html.svg"}
-              alt="HTML"
-              width={20}
-              height={20}
-              className="m-auto "
+            <img
+              className="object-cover object-center rounded-full w-10 h-10 m-auto"
+              alt="hero"
+              src={"/ProfileImages/pic4.jpg"}
             />
             <span className="ml-3 text-xl">Tailblocks</span>
           </a>

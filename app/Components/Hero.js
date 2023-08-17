@@ -8,15 +8,13 @@ export default function Hero() {
       className="text-gray-600 body-font bg-no-repeat  bg-cover h-screen  bg-gradient-to-r from-violet-500 to-fuchsia-500"
     >
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center absolute inset-0">
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-3/5 mb-10 md:mb-0">
-          <Image
-            src={"/Images/css.svg"}
-            alt="html"
-            width={450}
-            height={450}
-            className="m-auto"
-          />
-        </div>
+      <div className="lg:max-w-lg lg:w-full md:w-1/2 w-3/5 m-auto">
+            <img
+              className="object-cover object-center rounded-full md:h-full md:w-full w-30 h-30 m-auto mb-5"
+              alt="hero"
+              src={"/ProfileImages/pic4.jpg"}
+            />
+          </div>
         <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
           <h1 className="title-font md:text-3xl text-2xl mb-4 font-normal text-gray-900">
             Hi There! I'm

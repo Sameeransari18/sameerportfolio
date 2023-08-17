@@ -4,8 +4,8 @@ export default function Education() {
   return (
     <>
       <section className="text-gray-600 body-font">
-        <div className="container px-20 py-20 mx-auto flex flex-wrap">
-          <div className="flex flex-col text-center w-full mb-20">
+        <div className="container px-20 py-10 mx-auto flex flex-wrap">
+          <div className="flex flex-col text-center w-full mb-10">
             <h3 className="sm:text-4xl text-3xl title-font mb-4 font-black text-gray-900 uppercase tracking-widest">
               EDUCATION
             </h3>

@@ -72,12 +72,11 @@ export default function Navbar() {
           <div className="lg:flex lg:items-center">
             <div className="flex items-center justify-between pb-1">
               <a href="#hero" className="w-12 top-2 h-12 absolute ">
-                <Image
-                  src="/Images/html.svg"
-                  alt="imgss"
-                  layout="fill"
-                  className="rounded-full cursor-pointer"
-                />
+              <img
+              className="object-cover object-center rounded-full w-10 h-10 m-auto"
+              alt="hero"
+              src={"/ProfileImages/pic4.jpg"}
+            />
               </a>
 
               <div className="flex lg:hidden w-full justify-end">
