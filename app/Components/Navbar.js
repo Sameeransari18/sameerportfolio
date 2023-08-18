@@ -10,73 +10,17 @@ export default function Navbar() {
 
   return (
     <>
-      {/* <header className="text-gray-600 fixed bg-transparent shadow w-screen body-font z-10">
-        <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-          <a
-            href="#hero"
-            className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 cursor-pointer"
-          >
-            <img
-              src="/Images/profile.jpg"
-              alt="html"
-              className="w-10 h-10 object-cover rounded-full "
-            />
-            <span className="ml-3 font-bold text-2xl">Tailblocks</span>
-          </a>
-          <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center text-lg">
-            <a
-              href="#hero"
-              className="mr-4  rounded relative group lg:text-light lg:dark:text-dark cursor-pointer"
-            >
-              Home
-              <span
-                className=" hover:text-purple-600 cursor-pointer
-              inline-block h-[1px]  bg-dark absolute left-0 -bottom-0.5
-              group-hover:w-full transition-[width] ease duration-300 dark:bg-light
-               w-0 lg:bg-light lg:dark:bg-dark
-              "
-              >
-                &nbsp;
-              </span>
-            </a>
-            <a
-              href="#about"
-              className="mr-5 hover:text-purple-600 cursor-pointer"
-            >
-              About
-            </a>
-            <a
-              href="#skills"
-              className="mr-5 hover:text-purple-600 cursor-pointer"
-            >
-              Skills
-            </a>
-            <a
-              href="#education"
-              className="mr-5 hover:text-purple-600 cursor-pointer"
-            >
-              Education
-            </a>
-            <a
-              href="#footer"
-              className="mr-5 hover:text-purple-600 cursor-pointer"
-            >
-              Footer
-            </a>
-          </nav>
-        </div>
-      </header> */}
-
       <nav className="bg-white shadow z-50 py-2 fixed w-full">
         <div className="container px-6 py-3 mx-auto">
           <div className="lg:flex lg:items-center">
             <div className="flex items-center justify-between pb-1">
               <a href="#hero" className="w-12 top-2 h-12 absolute ">
-              <img
-              className="object-cover object-center rounded-full w-10 h-10 m-auto"
-              alt="hero"
-              src={"/ProfileImages/pic4.jpg"}
-            />
+                <img
+                  className="object-cover object-center rounded-full w-12 h-12 m-auto"
+                  alt="hero"
+                  src={"/ProfileImages/pic4.jpg"}
+                  loading="lazy"
+                />
               </a>
 
               <div className="flex lg:hidden w-full justify-end">

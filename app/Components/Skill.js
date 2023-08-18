@@ -18,6 +18,7 @@ export default function Skill() {
                   src="/Images/netcore.svg"
                   alt="netcore"
                   className="w-full h-full object-contain rounded-md grayscale hover:grayscale-0 duration-300"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -27,6 +28,7 @@ export default function Skill() {
                   src="/Images/nodejs.svg"
                   alt="nodejs"
                   className="w-full h-full object-contain rounded-md grayscale hover:grayscale-0 duration-300"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -36,6 +38,7 @@ export default function Skill() {
                   src="/Images/boomi.svg"
                   alt="boomi"
                   className="w-full h-full object-contain rounded-md grayscale hover:grayscale-0 duration-300"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -45,6 +48,7 @@ export default function Skill() {
                   src="/Images/git-icon.svg"
                   alt="git-icon"
                   className="w-full h-full object-contain rounded-md grayscale hover:grayscale-0 duration-300"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -54,6 +58,7 @@ export default function Skill() {
                   src="/Images/html.svg"
                   alt="html"
                   className="w-full h-full object-contain rounded-md grayscale hover:grayscale-0 duration-300"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -63,6 +68,7 @@ export default function Skill() {
                   src="/Images/css.svg"
                   alt="css"
                   className="w-full h-full object-contain rounded-md grayscale hover:grayscale-0 duration-300"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -73,6 +79,7 @@ export default function Skill() {
                   src="/Images/tailwind-css.svg"
                   alt="tailwind-css"
                   className="w-full h-full object-contain rounded-md grayscale hover:grayscale-0 duration-300"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -82,6 +89,7 @@ export default function Skill() {
                   src="/Images/javascript.svg"
                   alt="javascript"
                   className="w-full h-full object-contain rounded-md grayscale hover:grayscale-0 duration-300"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -92,6 +100,7 @@ export default function Skill() {
                   src="/Images/npm-square-red-1.svg"
                   alt="npm-square-red-1"
                   className="w-full h-full object-contain rounded-md grayscale hover:grayscale-0 duration-300"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -101,6 +110,7 @@ export default function Skill() {
                   src="/Images/react.svg"
                   alt="react"
                   className="w-full h-full object-contain rounded-md grayscale hover:grayscale-0 duration-300"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -110,6 +120,7 @@ export default function Skill() {
                   src="/Images/next-js.svg"
                   alt="next-js"
                   className="w-full h-full object-contain rounded-md grayscale hover:grayscale-0 duration-300"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -119,6 +130,7 @@ export default function Skill() {
                   src="/Images/material-ui.svg"
                   alt="material-ui"
                   className="w-full h-full object-contain rounded-md grayscale hover:grayscale-0 duration-300"
+                  loading="lazy"
                 />
               </div>
             </div>

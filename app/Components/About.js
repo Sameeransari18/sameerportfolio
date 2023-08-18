@@ -35,6 +35,7 @@ export default function About() {
               className="object-cover object-center rounded-full md:h-3/4 md:w-3/4 w-30 h-30"
               alt="hero"
               src={"/ProfileImages/pic1.jpg"}
+              loading="lazy"
             />
           </div>
         </div>
