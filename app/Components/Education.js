@@ -6,9 +6,9 @@ export default function Education() {
       <section id="education" className="text-gray-600 body-font">
         <div className="container px-20 py-10 mx-auto flex flex-wrap">
           <div className="flex flex-col text-center w-full mb-10">
-            <h3 className="sm:text-4xl text-3xl title-font mb-4 font-black text-gray-900 uppercase tracking-widest">
+            <h1 className="sm:text-4xl text-3xl title-font mb-4 font-black text-gray-900 uppercase tracking-widest">
               EDUCATION
-            </h3>
+            </h1>
           </div>
           <div className="flex relative pt-10 pb-20 sm:items-center md:w-3/5 mx-auto font-mono">
             <div className="h-full w-6 absolute inset-0 flex items-center justify-center">

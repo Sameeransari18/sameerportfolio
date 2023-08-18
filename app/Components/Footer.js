@@ -4,40 +4,6 @@ import React from "react";
 export default function Footer() {
   return (
     <>
-      {/* <footer id="footer" classNameName="text-gray-600 body-font">
-        <div classNameName="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-          <a
-            href="#hero"
-            classNameName="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
-          >
-            <img
-              classNameName="object-cover object-center rounded-full w-10 h-10 m-auto"
-              alt="hero"
-              src={"/ProfileImages/pic4.jpg"}
-              loading="lazy"
-            />
-            <span classNameName="ml-3 text-xl">Tailblocks</span>
-          </a>
-          <p classNameName="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-            © 2023 SAMEER —
-            <a
-              href="mailto:shabittajsameer@gmail.com"
-              classNameName="text-gray-600 ml-1"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              shabittajsameer786@gmail.com
-            </a>
-          </p>
-          <span classNameName="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-            <a classNameName="text-gray-500"></a>
-            <a classNameName="ml-3 text-gray-500"> </a>
-            <a classNameName="ml-3 text-gray-500"></a>
-            <a classNameName="ml-3 text-gray-500"></a>
-          </span>
-        </div>
-      </footer> */}
-
       <footer id="footer" className="bg-purple">
         <div className="container flex flex-col items-center justify-between p-6 mx-auto space-y-4 sm:space-y-0 sm:flex-row">
           <a href="#hero" className="w-12 top-2 h-12 relative ">
@@ -53,7 +19,7 @@ export default function Footer() {
             © Copyright 2023. All Rights Reserved.
           </p>
 
-          <div className="flex text-2xl -mx-2">
+          <div className="flex text-2xl mx-10">
             <a
               href="https://www.linkedin.com/in/sameer-s-44a1b2203/"
               target="_blank"
@@ -100,12 +66,16 @@ export default function Footer() {
             </a>
 
             <a
-              href="/Resume/resume.pdf"
+              href="/Resume/Sameer_Backend_Resume.pdf"
               target="_blank"
               className="mx-2 text-gray-600 transition-colors duration-300  hover:text-blue-500 "
               aria-label=""
             >
-              <p className="text-sm text-gray-600">Resume</p>
+              {/* <p className="text-sm text-gray-600">Resume</p> */}
+              
+              <div className="border-2 border-purple-600 rounded-lg px-3 py-1 text-purple-400 cursor-pointer hover:bg-gradient-to-r from-violet-500 to-fuchsia-500 hover:text-purple-200 text-xs">
+                Resume
+              </div>
             </a>
           </div>
         </div>

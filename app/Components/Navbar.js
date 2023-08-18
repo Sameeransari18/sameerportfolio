@@ -80,7 +80,7 @@ export default function Navbar() {
                   Experience
                 </a>
                 <a
-                  href="/Resume/resume.pdf"
+                  href="/Resume/Sameer_Backend_Resume.pdf"
                   target="_blank"
                   className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-500 dark:hover:text-gray-500"
                 >
