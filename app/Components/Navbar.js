@@ -74,23 +74,18 @@ export default function Navbar() {
                   Education
                 </a>
                 <a
-                  href="#contact"
+                  href="#experience"
                   className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-500 dark:hover:text-gray-500"
                 >
-                  Contact Me
+                  Experience
                 </a>
-
-                {/* <div className="relative mt-4 lg:mt-0 lg:mx-4">
-                                <span className="absolute inset-y-0 left-0 flex items-center pl-3">
-                                    <Search />
-                                </span>
-
-                                <input
-                                    type="text"
-                                    className="w-full py-1 pl-10 pr-4 text-black placeholder-gray-600 bg-white border-b border-gray-600 dark:placeholder-gray-300 dark:focus:border-gray-300 lg:w-56 lg:border-transparent dark:bg-gray-800 dark:text-black focus:outline-none focus:border-gray-600"
-                                    placeholder="Search"
-                                />
-                            </div> */}
+                <a
+                  href="/Resume/resume.pdf"
+                  target="_blank"
+                  className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-500 dark:hover:text-gray-500"
+                >
+                  Resume
+                </a>
               </div>
             </div>
           </div>
