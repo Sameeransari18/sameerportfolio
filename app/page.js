@@ -9,7 +9,7 @@ import About from "./Components/About";
 import Skill from "./Components/Skill";
 import Education from "./Components/Education";
 import ScrollProgress from "./Components/ScrollProgress";
-import ScrollToTopButton  from "./Components/ScrollToTopButton";
+import ScrollToTopButton from "./Components/ScrollToTopButton";
 import Experience from "./Components/Experience";
 
 export default function Home() {
@@ -19,8 +19,8 @@ export default function Home() {
       <Hero />
       <About />
       <Skill />
-      <Education />
       <Experience />
+      <Education />
       <Footer />
       <ScrollProgress />
       <ScrollToTopButton />

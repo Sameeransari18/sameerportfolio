@@ -68,12 +68,10 @@ export default function Footer() {
             <a
               href="/Resume/Sameer_Backend_Resume.pdf"
               target="_blank"
-              className="mx-2 text-gray-600 transition-colors duration-300  hover:text-blue-500 "
-              aria-label=""
+              className="mx-2 text-gray-600 transition-colors duration-300 hover:text-blue-500"
+              aria-label="Resume"
             >
-              {/* <p className="text-sm text-gray-600">Resume</p> */}
-              
-              <div className="border-2 border-purple-600 rounded-lg px-3 py-1 text-purple-400 cursor-pointer hover:bg-gradient-to-r from-violet-500 to-fuchsia-500 hover:text-purple-200 text-xs">
+              <div className="border-2 border-purple-600 rounded-lg px-3 py-1 text-white cursor-pointer bg-gradient-to-r from-violet-500 to-fuchsia-500 hover:from-violet-600 hover:to-fuchsia-600 text-xs">
                 Resume
               </div>
             </a>
