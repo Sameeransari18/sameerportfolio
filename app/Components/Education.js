@@ -4,7 +4,7 @@ export default function Education() {
   return (
     <>
       <section id="education" className="text-gray-600 body-font">
-        <div className="container px-20 py-10 mx-auto flex flex-wrap">
+        <div className="container px-5 py-16 mx-auto flex flex-wrap">
           <div className="flex flex-col text-center w-full mb-10">
             <h1 className="sm:text-4xl text-3xl title-font mb-4 font-black text-gray-900 uppercase tracking-widest">
               EDUCATION
@@ -18,7 +18,7 @@ export default function Education() {
               1
             </div>
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-              <div className="flex-shrink-0 w-24 h-24 bg-purple-100 text-purple-500 rounded-full inline-flex items-center justify-center">
+              <div className="flex-shrink-0 md:w-20 md:h-20 w-16 h-16 bg-purple-100 text-purple-500 rounded-full inline-flex items-center justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   height="2em"
@@ -28,7 +28,7 @@ export default function Education() {
                 </svg>
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
+                <h2 className="font-black title-font text-gray-900 mb-1 md:text-xl text-lg">
                   Higher Secondary
                 </h2>
                 <p className="leading-relaxed">
@@ -45,7 +45,7 @@ export default function Education() {
               2
             </div>
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-              <div className="flex-shrink-0 w-24 h-24 bg-purple-100 text-purple-500 rounded-full inline-flex items-center justify-center">
+              <div className="flex-shrink-0 md:w-20 md:h-20 w-16 h-16 bg-purple-100 text-purple-500 rounded-full inline-flex items-center justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   height="2em"
@@ -55,10 +55,10 @@ export default function Education() {
                 </svg>
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
+                <h2 className="font-black title-font text-gray-900 mb-1 md:text-xl text-lg">
                   Bachelorette in Computer Science
                 </h2>
-                <p className="leading-relaxed">
+                <p className="leading-relaxed md:text-lg text-sm">
                   The New College (Autonomous) | 2019-2022
                 </p>
               </div>
@@ -72,7 +72,7 @@ export default function Education() {
               3
             </div>
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-              <div className="flex-shrink-0 w-24 h-24 bg-purple-100 text-purple-500 rounded-full inline-flex items-center justify-center">
+              <div className="flex-shrink-0 md:w-20 md:h-20 w-16 h-16 bg-purple-100 text-purple-500 rounded-full inline-flex items-center justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   height="2em"
@@ -82,10 +82,12 @@ export default function Education() {
                 </svg>
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
+                <h2 className="font-black title-font text-gray-900 mb-1 md:text-xl text-lg">
                   Master's in Computer Application
                 </h2>
-                <p className="leading-relaxed">SRM University | 2022-2024</p>
+                <p className="leading-relaxed md:text-lg text-sm">
+                  SRM University | 2022-2024
+                </p>
               </div>
             </div>
           </div>

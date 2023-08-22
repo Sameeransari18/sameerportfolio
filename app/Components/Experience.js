@@ -4,13 +4,13 @@ export default function Experience() {
   return (
     <>
       <section id="experience" className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container px-5 py-16 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
             <h1 className="sm:text-4xl text-3xl title-font mb-4 font-black text-gray-900 uppercase tracking-widest">
               Experience
             </h1>
           </div>
-          <div className="flex flex-wrap -mx-4 -my-8">
+          <div className="flex flex-wrap xs:-mx-4 -my-8">
             <div className="py-10 px-4 lg:w-1/3 m-auto border rounded-2xl shadow-lg lg:mb-0 mb-5">
               <div className="h-full flex items-start">
                 <div className="flex-shrink-0 w-16 h-16 mx-3 bg-purple-100 text-purple-500 rounded-full sm:inline-flex items-center justify-center m-auto hidden">
@@ -26,7 +26,7 @@ export default function Experience() {
                   <span className="text-gray-500 pb-2 mb-2 text-sm border-b-2 border-gray-200">
                     Mar 2022
                   </span>
-                  <span className="text-gray-500 pb-2 mb-2 text-sm border-gray-200">
+                  <span className="text-gray-500 text-sm border-gray-200">
                     May 2022
                   </span>
                 </div>
@@ -35,7 +35,7 @@ export default function Experience() {
                   <h1 className="title-font text-lg font-black  text-gray-900 ">
                     Web Developement Intern
                   </h1>
-                  <p className="leading-relaxed mb-5">KaroStartUp</p>
+                  <p className="leading-relaxed">KaroStartUp</p>
                 </div>
               </div>
             </div>
@@ -55,7 +55,7 @@ export default function Experience() {
                   <span className="text-gray-500 pb-2 mb-2 text-sm border-b-2 border-gray-200">
                     Jul 2022
                   </span>
-                  <span className="text-gray-500 pb-2 mb-2 text-sm border-gray-200">
+                  <span className="text-gray-500 text-sm border-gray-200">
                     Present
                   </span>
                 </div>
@@ -64,9 +64,7 @@ export default function Experience() {
                   <h1 className="title-font text-lg font-black  text-gray-900 ">
                     Software Engineer Trainee
                   </h1>
-                  <p className="leading-relaxed mb-5">
-                    Zydni Software Solutions
-                  </p>
+                  <p className="leading-relaxed">Zydni Software Solutions</p>
                 </div>
               </div>
             </div>

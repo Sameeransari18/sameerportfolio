@@ -8,6 +8,10 @@ export default function Navbar() {
     setIsOpen(!isOpen);
   };
 
+  const onClicked = () => {
+    setIsOpen(false);
+  };
+
   return (
     <>
       <nav className="bg-white shadow z-50 py-2 fixed w-full">
@@ -23,7 +27,7 @@ export default function Navbar() {
                 />
               </a>
 
-              <div className="flex lg:hidden w-full justify-end">
+              <div className="flex lg:hidden mb-1 w-full justify-end">
                 <button
                   onClick={handleClick}
                   type="button"
@@ -44,40 +48,45 @@ export default function Navbar() {
             <div
               className={`${
                 isOpen
-                  ? "translate-x-0 opacity-100"
+                  ? "translate-x-0 opacity-100 border border-t-2 border-from-violet-500 to-fuchsia-500"
                   : "opacity-0 -translate-x-full"
-              } absolute inset-x-0 z-20 flex-1 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white  mt-4 lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center lg:justify-between !justify-end`}
+              } absolute inset-x-0 z-20 flex-1 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white  mt-4 lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center lg:justify-between !justify-end `}
             >
-              <div className="flex justify-end flex-col text-black capitalize dark:text-black lg:flex lg:px-16 lg:-mx-4 lg:flex-row lg:items-center">
+              <div className="flex justify-end flex-col text-black capitalize dark:text-black lg:flex lg:px-16 lg:-mx-4 lg:flex-row lg:items-center font-medium">
                 <a
                   href="#hero"
+                  onClick={onClicked}
                   className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-500 dark:hover:text-gray-500"
                 >
                   Home
                 </a>
                 <a
                   href="#about"
+                  onClick={onClicked}
                   className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-500 dark:hover:text-gray-500"
                 >
                   About Us
                 </a>
                 <a
                   href="#skills"
+                  onClick={onClicked}
                   className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-500 dark:hover:text-gray-500"
                 >
                   Skill
                 </a>
                 <a
-                  href="#education"
-                  className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-500 dark:hover:text-gray-500"
-                >
-                  Education
-                </a>
-                <a
                   href="#experience"
+                  onClick={onClicked}
                   className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-500 dark:hover:text-gray-500"
                 >
                   Experience
+                </a>
+                <a
+                  href="#education"
+                  onClick={onClicked}
+                  className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-500 dark:hover:text-gray-500"
+                >
+                  Education
                 </a>
                 <a
                   href="/Resume/Sameer_Backend_Resume.pdf"

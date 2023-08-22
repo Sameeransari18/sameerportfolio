@@ -96,3 +96,14 @@ body {
 .animate-word-delay-4 {
   animation-delay: -9s;
 }
+
+
+@media screen and (max-width:976px){
+  
+  .skillsicon{
+    position: inherit !important;
+    transform: none !important;
+  }
+
+  
+}

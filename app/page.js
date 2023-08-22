@@ -11,6 +11,7 @@ import Education from "./Components/Education";
 import ScrollProgress from "./Components/ScrollProgress";
 import ScrollToTopButton from "./Components/ScrollToTopButton";
 import Experience from "./Components/Experience";
+import SkillSample from "./Components/SkillSample";
 
 export default function Home() {
   return (
@@ -18,7 +19,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
-      <Skill />
+      {/* <Skill /> */}
+      <SkillSample />
       <Experience />
       <Education />
       <Footer />
